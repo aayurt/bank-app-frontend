@@ -2,6 +2,8 @@ import 'package:abc_banking_app/core/constants/files.dart';
 import 'package:abc_banking_app/core/shared_pref/shared_pref.dart';
 import 'package:abc_banking_app/core/widgets/button_group/custom_button_group.dart';
 import 'package:abc_banking_app/core/widgets/card/custom_card.dart';
+import 'package:abc_banking_app/core/widgets/customText/customText.dart';
+import 'package:abc_banking_app/core/widgets/customTextNew/customText.dart';
 import 'package:abc_banking_app/core/widgets/textfield/custom_textfield.dart';
 import 'package:abc_banking_app/features/login/data/models/login_api_request_model.dart';
 import 'package:abc_banking_app/features/login/presentation/bloc/login_bloc.dart';
@@ -103,6 +105,24 @@ class _LoginPageState extends State<LoginPage> {
                     "ABC Banking",
                     style: TextStyle(fontSize: 24),
                   ),
+                  CustomText(
+                    child: Text(
+                      "ABC Banking",
+                      style: TextStyle(fontSize: 24),
+                    ),
+                  ),
+                  CustomTextNew(
+                    children: [
+                      Text(
+                        "ABC Banking",
+                        style: TextStyle(fontSize: 24),
+                      ),
+                      Text(
+                        "ABC Banking",
+                        style: TextStyle(fontSize: 24),
+                      ),
+                    ],
+                  )
                 ],
               ),
               const SizedBox(
